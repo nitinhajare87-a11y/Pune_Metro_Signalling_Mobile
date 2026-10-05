@@ -1,4 +1,4 @@
-const CACHE_NAME = "pune-signalling-shell-v4";
+const CACHE_NAME = "pune-signalling-shell-v7";
 const APP_FILES = [
   "./",
   "./index.html",
@@ -8,7 +8,7 @@ const APP_FILES = [
   "./hajare-logo.png",
   "./hajare-icon-192.png",
   "./hajare-icon-512.png",
-  "./pune-metro-mark.svg",
+
   "./metro-train.png"
 ];
 self.addEventListener("install", event => {
@@ -34,4 +34,8 @@ self.addEventListener("fetch", event => {
     return caches.open(CACHE_NAME).then(cache => cache.put(request, response.clone()).then(() => response));
   }).catch(() => caches.match(request).then(cached => cached || Response.error())));
 });
+
+
+
+
 
