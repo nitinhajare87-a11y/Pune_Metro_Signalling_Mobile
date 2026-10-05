@@ -1,0 +1,498 @@
+{
+  "brand": {
+    "title": "SIGNALLING SYSTEM",
+    "subtitle": "PUNE METRO",
+    "creator": "Hajare Electrical & Electronics",
+    "tagline": "Powering Smart Solutions"
+  },
+  "documents": [
+    {
+      "ID": 1,
+      "Station": "SJO",
+      "System": "PSD",
+      "Sub-System": "DCU",
+      "Document Type": "Circuit Diagram",
+      "Document Name": "PSD DCU Circuit Diagram",
+      "Drawing No.": "PSD-XXX",
+      "Rev.": "R05",
+      "Document Date": null,
+      "Status": "Approved",
+      "Google Drive Link": null,
+      "QR ID": "SJO-PSD-DCU",
+      "File Name": "PSD-DCU-R05.pdf",
+      "Folder Path": "07_PSD/SJO/01_CIRCUIT_DIAGRAM",
+      "Remarks": "Sample entry – replace with actual data"
+    },
+    {
+      "ID": 2,
+      "Station": "SJO",
+      "System": "PSD",
+      "Sub-System": "DCU",
+      "Document Type": "Manual",
+      "Document Name": "DCU Maintenance Manual",
+      "Drawing No.": "DCU-XXX",
+      "Rev.": "R03",
+      "Document Date": null,
+      "Status": "Approved",
+      "Google Drive Link": null,
+      "QR ID": "SJO-PSD-DCU",
+      "File Name": "DCU-Manual-R03.pdf",
+      "Folder Path": "07_PSD/SJO/03_DCU",
+      "Remarks": "Sample entry – replace with actual data"
+    },
+    {
+      "ID": 3,
+      "Station": "PCMC",
+      "System": "Axle Counter",
+      "Sub-System": "System",
+      "Document Type": "Circuit Diagram",
+      "Document Name": "Axle Counter Circuit",
+      "Drawing No.": "AC-XXX",
+      "Rev.": "R04",
+      "Document Date": null,
+      "Status": "Approved",
+      "Google Drive Link": null,
+      "QR ID": "PCMC-AC",
+      "File Name": "AC-XXX-R04.pdf",
+      "Folder Path": "04_AXLE_COUNTER/Station_Wise",
+      "Remarks": "Sample entry – replace with actual data"
+    },
+    {
+      "ID": 4,
+      "Station": "DER_DEPOT",
+      "System": "UPS",
+      "Sub-System": "UPS",
+      "Document Type": "Manual",
+      "Document Name": "UPS Manual",
+      "Drawing No.": "UPS-XXX",
+      "Rev.": "R02",
+      "Document Date": null,
+      "Status": "Approved",
+      "Google Drive Link": null,
+      "QR ID": "DER-UPS",
+      "File Name": "UPS-XXX-R02.pdf",
+      "Folder Path": "03_UPS/DER_DEPOT",
+      "Remarks": "Sample entry – replace with actual data"
+    }
+  ],
+  "stations": [
+    {
+      "Station Code": "PCMC",
+      "Station Name": "PCMC",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "No",
+      "Notes": null
+    },
+    {
+      "Station Code": "STG",
+      "Station Name": "STG",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "No",
+      "Notes": null
+    },
+    {
+      "Station Code": "BHO",
+      "Station Name": "BHO",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "No",
+      "Notes": null
+    },
+    {
+      "Station Code": "KWA",
+      "Station Name": "KWA",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "No",
+      "Notes": null
+    },
+    {
+      "Station Code": "PGD",
+      "Station Name": "PGD",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "No",
+      "Notes": null
+    },
+    {
+      "Station Code": "DDI",
+      "Station Name": "DDI",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "No",
+      "Notes": null
+    },
+    {
+      "Station Code": "BPI",
+      "Station Name": "BPI",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "No",
+      "Notes": null
+    },
+    {
+      "Station Code": "KHK",
+      "Station Name": "KHK",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "No",
+      "Notes": null
+    },
+    {
+      "Station Code": "RHL",
+      "Station Name": "RHL",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "No",
+      "Notes": null
+    },
+    {
+      "Station Code": "SJO",
+      "Station Name": "SJO",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "Yes",
+      "Notes": "PSD available only at mapped stations"
+    },
+    {
+      "Station Code": "CVC_UG",
+      "Station Name": "CVC_UG",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "Yes",
+      "Notes": "PSD available only at mapped stations"
+    },
+    {
+      "Station Code": "BDP",
+      "Station Name": "BDP",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "Yes",
+      "Notes": "PSD available only at mapped stations"
+    },
+    {
+      "Station Code": "MNA",
+      "Station Name": "MNA",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "Yes",
+      "Notes": "PSD available only at mapped stations"
+    },
+    {
+      "Station Code": "SGT",
+      "Station Name": "SGT",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "Yes",
+      "Notes": "PSD available only at mapped stations"
+    },
+    {
+      "Station Code": "DER_DEPOT",
+      "Station Name": "DER_DEPOT",
+      "Application Drawings": "Yes",
+      "PDC": "Yes",
+      "UPS": "Yes",
+      "Axle Counter": "Yes",
+      "BTN / DCS": "Yes",
+      "PSD": "No",
+      "Notes": null
+    }
+  ],
+  "systems": [
+    {
+      "System": "Application Drawings",
+      "Drive Folder": "01_APPLICATION_DRAWINGS",
+      "Primary Access": "Station / System",
+      "Description": null
+    },
+    {
+      "System": "PDC",
+      "Drive Folder": "02_PDC",
+      "Primary Access": "Station / System",
+      "Description": null
+    },
+    {
+      "System": "UPS",
+      "Drive Folder": "03_UPS",
+      "Primary Access": "Station / System",
+      "Description": null
+    },
+    {
+      "System": "Axle Counter",
+      "Drive Folder": "04_AXLE_COUNTER",
+      "Primary Access": "Station / System",
+      "Description": null
+    },
+    {
+      "System": "BTN / DCS",
+      "Drive Folder": "05_BTN_DCS",
+      "Primary Access": "Station / System",
+      "Description": null
+    },
+    {
+      "System": "Onboard Train Set",
+      "Drive Folder": "06_ONBOARD_TRAIN_SET",
+      "Primary Access": "Station / System",
+      "Description": null
+    },
+    {
+      "System": "PSD",
+      "Drive Folder": "07_PSD",
+      "Primary Access": "Station / System",
+      "Description": null
+    },
+    {
+      "System": "Training Manual",
+      "Drive Folder": "08_TRAINING_MANUAL",
+      "Primary Access": "Station / System",
+      "Description": null
+    },
+    {
+      "System": "Maintenance Manual",
+      "Drive Folder": "09_MAINTENANCE_MANUAL",
+      "Primary Access": "Station / System",
+      "Description": null
+    },
+    {
+      "System": "Emergency Troubleshooting",
+      "Drive Folder": "10_EMERGENCY_TROUBLESHOOTING",
+      "Primary Access": "Station / System",
+      "Description": null
+    }
+  ],
+  "psd": [
+    {
+      "Station": "SJO",
+      "PSD Folder": "07_PSD/SJO",
+      "01 Circuit Diagram": "01_CIRCUIT_DIAGRAM",
+      "02 PSC": "02_PSC",
+      "03 DCU": "03_DCU",
+      "04 DPC": "04_DPC",
+      "05 CPC": "05_CPC",
+      "QR Enabled": "Yes"
+    },
+    {
+      "Station": "CVC_UG",
+      "PSD Folder": "07_PSD/CVC_UG",
+      "01 Circuit Diagram": "01_CIRCUIT_DIAGRAM",
+      "02 PSC": "02_PSC",
+      "03 DCU": "03_DCU",
+      "04 DPC": "04_DPC",
+      "05 CPC": "05_CPC",
+      "QR Enabled": "Yes"
+    },
+    {
+      "Station": "BDP",
+      "PSD Folder": "07_PSD/BDP",
+      "01 Circuit Diagram": "01_CIRCUIT_DIAGRAM",
+      "02 PSC": "02_PSC",
+      "03 DCU": "03_DCU",
+      "04 DPC": "04_DPC",
+      "05 CPC": "05_CPC",
+      "QR Enabled": "Yes"
+    },
+    {
+      "Station": "MNA",
+      "PSD Folder": "07_PSD/MNA",
+      "01 Circuit Diagram": "01_CIRCUIT_DIAGRAM",
+      "02 PSC": "02_PSC",
+      "03 DCU": "03_DCU",
+      "04 DPC": "04_DPC",
+      "05 CPC": "05_CPC",
+      "QR Enabled": "Yes"
+    },
+    {
+      "Station": "SGT",
+      "PSD Folder": "07_PSD/SGT",
+      "01 Circuit Diagram": "01_CIRCUIT_DIAGRAM",
+      "02 PSC": "02_PSC",
+      "03 DCU": "03_DCU",
+      "04 DPC": "04_DPC",
+      "05 CPC": "05_CPC",
+      "QR Enabled": "Yes"
+    }
+  ],
+  "source": {
+    "workbook": "Document_Master_List.xlsx",
+    "documentRows": 4,
+    "note": "The workbook currently contains four sample documents; Google Drive links are blank."
+  },
+  "driveMapping": {
+    "repositoryId": "1zhK_oxoEhK18O19tbhPdWrDt7SSsGJxC",
+    "stations": {
+      "PCMC": "1hNhIniamfIvGnTK0QPI_bE4aYNb-uOpQ",
+      "STG": "1Ft-Rij40hA--DFUexAjuB9n5z2jMSMwC",
+      "BHO": "1DZG5CB0E6ZLLCNHJwtXaKksA4179kXHi",
+      "KWA": "1UK-jsdZUkFKCBowQonxl3VOK_cl8VvMm",
+      "PGD": "1yRGnxNp-RvEoqGes92VenfbH-Hg3HGRA",
+      "DDI": "14XCkNsvF6j7YF5cYe3xZlWVvhLhWQdqD",
+      "BPI": "17nF4rPIWCRqmcg4wxVoh3dlBHmVXDPXs",
+      "KHK": "1mFSN6G1kRtZ4Ksj0uptcQDGpZdRBaRSr",
+      "RHL": "1xqdGTqY0AOm0gPqwUkQ4JH1D7SHviYgM",
+      "SJO": "1wI5mx1RCma9TG7yyavYkcYCX7KDt4p5d",
+      "CVC_UG": "1a_FH49G5M8X4cxKqK8I9LUlySA3oZm0S",
+      "BDP": "1pkmq4MB_On4xGjQhfzMcDQiT8BTbAM4I",
+      "MNA": "1TUCb6CY066lh05yDGFnRjFXXrjHbHRHZ",
+      "SGT": "1s28gw8mJLifvQLT17btMI8S9W-KqhufZ",
+      "DER_DEPOT": "1lfPuA39bF6nesqUaZPPi_E51_QMVS_5g"
+    },
+    "systems": {
+      "PCMC": {
+        "01_Application_Drawings": "1rwJ2DIDogQhpeTfn_vI5fCh8TU4Amwda",
+        "02_PDC": "1fJJrSHjwaMP_CedMgFryaT7lfGQDQhpu",
+        "03_UPS": "18UxICxCCK2m8v0K88f5775nmpwsNhDim",
+        "04_AXLE_COUNTER": "1D951uQU6TY5TaMgMASjcIvK0Jz26NylU",
+        "05_BTN_DCS": "1rQBp1TRoMB6xSiMHj-fpMCIg5duSoNi5"
+      },
+      "STG": {
+        "01_Application_Drawings": "18-AIYgshB_Y-o_cJgndXpZGrn9BeIZBY",
+        "02_PDC": "1xNUwdFF45FCisAgO4qYPBt_JyWQ0r444",
+        "03_UPS": "1EQUlVEru6E9HDN1TXk8_wGMEtvmZxTcC",
+        "04_AXLE_COUNTER": "1mOi76ijKMXj9WcCUIhilG6i557O-YYM8",
+        "05_BTN_DCS": "1wAq-5IjL9xHQLWaUGEomXFMI5kvy0gb3"
+      },
+      "BHO": {
+        "01_Application_Drawings": "1qq05potkxHXDMVptaimPF2MFSvjDx6I1",
+        "02_PDC": "102N2O16MuVd_7QU2QGOX94tmjsQLvhpg",
+        "03_UPS": "1FtLO3CF5IkgMZRZk6bZwXPvk-K68DVmq",
+        "04_AXLE_COUNTER": "1GkeOzikMwmBSf9JW8u2m8FI7aQNM39Mf",
+        "05_BTN_DCS": "15wuCDa17ALxP-uUX_EZynttQHaVd1W2z"
+      },
+      "KWA": {
+        "01_Application_Drawings": "1OzmyAEpQoXwNflFXlbVmSvkx535P-O72",
+        "02_PDC": "1oBz84eyXTXWVQZlPoJrdW-68KK8bZCzT",
+        "03_UPS": "1TlfOsVmv8zVMNEwMv_Hx8uweSxqkRyBm",
+        "04_AXLE_COUNTER": "1d4GBibGVHm6-fL10ABmwA-KHrhx4t7CK",
+        "05_BTN_DCS": "1LJ-baFvin79Subn7zCSi7sA51NX5oTwa"
+      },
+      "PGD": {
+        "01_Application_Drawings": "1woqh541JQvBKXHIK3nYRStcNYBOPgCsg",
+        "02_PDC": "1pUtKP23FAc2e2OetIFLRQHeomzc256NJ",
+        "03_UPS": "11YXfsMimFsVZ5wDDaHdClzFNDsQuwYf6",
+        "04_AXLE_COUNTER": "1r_30z7Uzuy4oLBeb1d2rTRkbHvtEgdSL",
+        "05_BTN_DCS": "18z1adM3BWY9UrX13n5VwOtyOccRr7-dj"
+      },
+      "DDI": {
+        "01_Application_Drawings": "1TLTEElNHT-zQ3Z2SGlfX68HcwyMI2pJl",
+        "02_PDC": "1Kh6oeZs9bn0u_d1RMPNoNSNno6FEdtLp",
+        "03_UPS": "1KXPrDGoABi5nO_MGL3lmH678FK4gwBtq",
+        "04_AXLE_COUNTER": "1jng3nfiiohX7IfsTi8X4N6mbEyvTMXXO",
+        "05_BTN_DCS": "1QvgVqLfSv09XaJLOOXYehM8BZ2_p43BR"
+      },
+      "BPI": {
+        "01_Application_Drawings": "1CbGkZpqo_hkpI-PkMKSrbDqY3Hx7K1ce",
+        "02_PDC": "1H_cVaZvcRTjVwSi8nVjFJlm02RGqrr5S",
+        "03_UPS": "19cJ7BPjiwjAhQXqRA8Q3BT8YFoQny_Qe",
+        "04_AXLE_COUNTER": "1yh4Ua2Ydwk1fiDkvD-XDqG8JgpMipxm4",
+        "05_BTN_DCS": "13PNU_4SeMKqYiYcFrRDeIlWQgm9sz-n6"
+      },
+      "KHK": {
+        "01_Application_Drawings": "1fpUpwbvqDAnjHxcS5sUpFessI0FVd5BT",
+        "02_PDC": "1JCvQA_cYAwb5ejTJKH9tcgbCs3XzCxms",
+        "03_UPS": "1Vq12EkUI8UqhqXauaU4_95slbPU1_nb1",
+        "04_AXLE_COUNTER": "1-GZ_nxO-vALdX7G9ck9wkWQZ5AW374a2",
+        "05_BTN_DCS": "1tHuTNLgrq7kBy0GGl1kksSi7RK8AM1xP"
+      },
+      "RHL": {
+        "01_Application_Drawings": "1NusS3Ftxd4_LWTC-9NJEzu7Y7XakaINE",
+        "02_PDC": "1wYBUaHHklxe3gYTFqeoUw19K-ed8zeyA",
+        "03_UPS": "16WCRuiYtvNU7TYmNtIxnpZVogIagFSA_",
+        "04_AXLE_COUNTER": "1w-RSYH9wIOzwLNaxETR6R87T_6bzvxIN",
+        "05_BTN_DCS": "1OxTlCvz-B32XRCHGWwCU8we0rs7dnslh"
+      },
+      "SJO": {
+        "01_Application_Drawings": "1G7PxV3clXB_qyfE2Xywd0pSUuqJ8O0lV",
+        "02_PDC": "1YSiP_K9Ml1l3k2-2sUnhHHLr-jHHINeQ",
+        "03_UPS": "1uuUZf3u8taHQiYgM4XhV3n4I8-8K4Siy",
+        "04_AXLE_COUNTER": "1jr_qbA9fNZSEdnjEfm-WxZyrqTjIhPjP",
+        "05_BTN_DCS": "1kEoK7v_HdG08IjqJiopuCuaTgBbesabM"
+      },
+      "CVC_UG": {
+        "01_Application_Drawings": "1-aSvZUtX-iHY8C7pmjs-oXigGlcQVjzH",
+        "02_PDC": "1HAU09zxPY0aYtdZm712A8C4l2ThsEIa7",
+        "03_UPS": "1A5E-Czg1boJMk6wR7cEIhws3FD6HMDj3",
+        "04_AXLE_COUNTER": "1yEWAv7p6dRyc4jYRWMpXgco9unwSjZE6",
+        "05_BTN_DCS": "1QJNMPmT45LpvbZPfGExLyaN9VaFX0bdr"
+      },
+      "BDP": {
+        "01_Application_Drawings": "123HYZfmBrPOpPeZYclRU-QozR9dwNM_q",
+        "02_PDC": "1iYF2csfATUjhiGS045Q0mpbtMjbp1zWs",
+        "03_UPS": "1h3SZpNlHZ7axDhU0BgA0SU0mB0xIfBx0",
+        "04_AXLE_COUNTER": "1nV4dkyDNy5j1quWV1WKaMZXzeJ69sEDr",
+        "05_BTN_DCS": "1hWW8rz1snZPClVT-9DAIEpR7r-I42Rem"
+      },
+      "MNA": {
+        "01_Application_Drawings": "1Cwh8u46YZ0jslv09SKvef2KiKqv3m6V7",
+        "02_PDC": "1FrPLGmpB_D4QKh-v0ptBGKyvXXJ9kMj1",
+        "03_UPS": "1Wywhv8voEBlUnDj7HXI2WA93Ol_U-QP5",
+        "04_AXLE_COUNTER": "1m2_7cQZlrgCbA-oNPDJgQlZCupHh7IwD",
+        "05_BTN_DCS": "1qFvcdeE3sZNUE2XcS3cw4izI6NrSJm70"
+      },
+      "SGT": {
+        "01_Application_Drawings": "1u5yEv0rTEhVeIhrq1MqwSc6D9SyFvbne",
+        "02_PDC": "1m9nEOTK7UJNVTQ5GOPahmQvHdFQ5PCpl",
+        "03_UPS": "19O7cjIQfNU6O0pRqETMn4-K3QYmoHHwD",
+        "04_AXLE_COUNTER": "1pxeR3f2tNOFYoGFT3RO24s031C-VkjS0",
+        "05_BTN_DCS": "1C7TQDMK-ylLN5SmnMpW-PvuLoRQwCYEc"
+      },
+      "DER_DEPOT": {
+        "01_Application_Drawings": "1Y7jtx_481m-RecKkb1idBwET-ktIonsU",
+        "02_PDC": "1y0L0MZ4RShXuSW5TnqgyO_NxUI4zKpDU",
+        "03_UPS": "1ph2X3UgK6o5GJEWqRyVQxu-XLY5t9wks",
+        "04_AXLE_COUNTER": "1Pl_b-T-x-631A4WJ-ZLmOdmUqM2iSAU6",
+        "05_BTN_DCS": "1OiZL5pQd6lBHheJwnythEOpGLkm-h3Ky"
+      }
+    },
+    "psd": {
+      "SJO": "1JndDf_I8RnVEyhm_9_JXNPTXIFhHbFEX",
+      "CVC_UG": "1k6ht7W1kfXrTI7d5SGOLqLQnnK3CniDa",
+      "BDP": "1eK4GhrGX5pLKFIjxcpGXeUDWPh1lzolM",
+      "MNA": "1nBGSshMre07hDx0a4-AFIvEgd3BTxabY",
+      "SGT": "1AZXee1Yba3TFpktxDj7uFrO-9eZ4W4x7"
+    }
+  }
+}
