@@ -1,6 +1,6 @@
 # Pune Metro Signalling Technician Hub
 
-Mobile document index with Pune Metro and Hajare branding, station/system filters, mapped Drive shortcuts, and an animated train banner for field technicians.
+Mobile document index with Pune Metro and Hajare branding, station/system filters, mapped Drive shortcuts, and an animated train banner for field technicians. The native Android app can save selected linked PDFs locally for offline use.
 
 ## Update the existing GitHub Pages repository
 
@@ -14,5 +14,6 @@ Open the GitHub Pages HTTPS URL on the phone. On Android use Chrome → **Instal
 
 ## Visibility and data
 
-GitHub Pages is public. The repository exposes station names, folder IDs and sample metadata. Drive files continue to use their existing Google Drive permissions. The 12 GB document collection is not packaged in the app; the index currently contains sample inventory rows.
+GitHub Pages is public. The repository exposes station names, folder IDs and sample metadata. Drive files continue to use their existing Google Drive permissions. The 12 GB document collection is not packaged in the app; the index currently contains four sample inventory rows plus the corridor scheme-plan PDF. That PDF is restricted in Drive to named accounts; grant access to field technicians before they use its app link or save it offline.
+
 

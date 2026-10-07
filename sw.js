@@ -1,4 +1,4 @@
-const CACHE_NAME = "pune-signalling-shell-v7";
+const CACHE_NAME = "pune-signalling-shell-v9";
 const APP_FILES = [
   "./",
   "./index.html",
@@ -34,6 +34,8 @@ self.addEventListener("fetch", event => {
     return caches.open(CACHE_NAME).then(cache => cache.put(request, response.clone()).then(() => response));
   }).catch(() => caches.match(request).then(cached => cached || Response.error())));
 });
+
+
 
 
 

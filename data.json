@@ -73,6 +73,23 @@
       "File Name": "UPS-XXX-R02.pdf",
       "Folder Path": "03_UPS/DER_DEPOT",
       "Remarks": "Sample entry – replace with actual data"
+    },
+    {
+      "ID": 5,
+      "Station": "Corridor-wide",
+      "System": "Application Drawings",
+      "Sub-System": "Scheme Plan",
+      "Document Type": "Scheme Plan",
+      "Document Name": "Signalling Scheme Plan PCMC–Swargate (Reach 1 & 4)",
+      "Drawing No.": "MWB03-AST-SG-SIG-PWD-SYS-0051",
+      "Rev.": "A07",
+      "Document Date": "2023-08-21",
+      "Status": "For Approval",
+      "Google Drive Link": "https://drive.google.com/file/d/1eBPAz8Nh7Aj9jpTw69Unvqsi4AdTzR9P/view?usp=drive_link",
+      "QR ID": "PUNE-METRO-SCHEME-PLAN",
+      "File Name": "Scheme plan_MWB03-AST-SG-SIG-PWD-SYS-0051_vG (1).pdf",
+      "Folder Path": "Pune Metro Signalling Documents / repository root",
+      "Remarks": "55-page corridor-wide scheme plan. Drive currently restricts access to named accounts; grant technician accounts access before use."
     }
   ],
   "stations": [
@@ -358,8 +375,8 @@
   ],
   "source": {
     "workbook": "Document_Master_List.xlsx",
-    "documentRows": 4,
-    "note": "The workbook currently contains four sample documents; Google Drive links are blank."
+    "documentRows": 5,
+    "note": "Four sample rows from the workbook plus one corridor scheme plan mapped from Drive. Sample rows still need actual file links."
   },
   "driveMapping": {
     "repositoryId": "1zhK_oxoEhK18O19tbhPdWrDt7SSsGJxC",
