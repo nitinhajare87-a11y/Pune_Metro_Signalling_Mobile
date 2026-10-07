@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 120" role="img" aria-label="Complete three-car Pune Metro train">
+<defs>
+ <linearGradient id="body" x2="0" y2="1"><stop stop-color="#fff"/><stop offset=".7" stop-color="#e8f3fa"/><stop offset="1" stop-color="#b9d1e1"/></linearGradient>
+ <linearGradient id="blue" x2="0" y2="1"><stop stop-color="#1478d4"/><stop offset="1" stop-color="#063d88"/></linearGradient>
+ <linearGradient id="glass" x2="0" y2="1"><stop stop-color="#b8f2ff"/><stop offset="1" stop-color="#24628f"/></linearGradient>
+</defs>
+<!-- wheels and chassis -->
+<g fill="#172b3d" stroke="#091a29" stroke-width="2"><path d="M39 87h670v12H39z"/><circle cx="93" cy="101" r="10"/><circle cx="188" cy="101" r="10"/><circle cx="278" cy="101" r="10"/><circle cx="380" cy="101" r="10"/><circle cx="472" cy="101" r="10"/><circle cx="578" cy="101" r="10"/><circle cx="654" cy="101" r="10"/></g>
+<g fill="#8299a8"><circle cx="93" cy="101" r="4"/><circle cx="188" cy="101" r="4"/><circle cx="278" cy="101" r="4"/><circle cx="380" cy="101" r="4"/><circle cx="472" cy="101" r="4"/><circle cx="578" cy="101" r="4"/><circle cx="654" cy="101" r="4"/></g>
+<!-- three complete cars with continuous blue roof and red safety band -->
+<path d="M47 38q0-13 15-13h195v66H47z" fill="url(#body)" stroke="#42586a" stroke-width="3"/>
+<path d="M257 25h222v66H257z" fill="url(#body)" stroke="#42586a" stroke-width="3"/>
+<path d="M481 25h188q16 0 22 15l24 38q5 8-4 13H481z" fill="url(#body)" stroke="#42586a" stroke-width="3"/>
+<path d="M47 39q0-14 15-14h604q15 0 22 15l9 15H47z" fill="url(#blue)"/>
+<path d="M47 72h660l7 11H47z" fill="#ed394b"/>
+<!-- front windshield and nose -->
+<path d="M668 40q18 0 26 16l18 22q6 8-5 13h-39z" fill="url(#blue)" stroke="#173f68" stroke-width="2"/>
+<path d="M675 43q11 1 17 12l10 14h-27z" fill="url(#glass)" stroke="#d9f7ff" stroke-width="2"/>
+<path d="M709 79h8l-4 7h-8z" fill="#fff4bc"/>
+<!-- cab and passenger windows -->
+<path d="M57 42h33v24H57z" rx="4" fill="url(#glass)" stroke="#fff" stroke-width="3"/>
+<g fill="url(#glass)" stroke="#fff" stroke-width="3">
+ <rect x="101" y="42" width="37" height="23" rx="4"/><rect x="146" y="42" width="37" height="23" rx="4"/><rect x="191" y="42" width="37" height="23" rx="4"/>
+ <rect x="270" y="42" width="39" height="23" rx="4"/><rect x="316" y="42" width="39" height="23" rx="4"/><rect x="362" y="42" width="39" height="23" rx="4"/><rect x="408" y="42" width="39" height="23" rx="4"/><rect x="454" y="42" width="17" height="23" rx="4"/>
+ <rect x="493" y="42" width="39" height="23" rx="4"/><rect x="539" y="42" width="39" height="23" rx="4"/><rect x="585" y="42" width="39" height="23" rx="4"/><rect x="630" y="42" width="30" height="23" rx="4"/>
+</g>
+<!-- doors and car joints -->
+<g fill="#d5e7f1" stroke="#52697b" stroke-width="2"><rect x="231" y="36" width="19" height="51" rx="3"/><rect x="455" y="36" width="19" height="51" rx="3"/></g>
+<g stroke="#8298a8" stroke-width="2"><path d="M240 39v45M464 39v45"/><path d="M88 75v8m150-8v8m220-8v8m193-8v8"/></g>
+<!-- undercarriage details -->
+<g fill="#31485b"><rect x="111" y="86" width="40" height="6" rx="2"/><rect x="299" y="86" width="48" height="6" rx="2"/><rect x="512" y="86" width="48" height="6" rx="2"/></g>
+</svg>

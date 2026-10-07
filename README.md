@@ -6,7 +6,7 @@ Mobile document index with Pune Metro and Hajare branding, station/system filter
 
 The Metro logo is embedded directly into `index.html`, so there is no separate Metro-logo filename or folder dependency. Extract `Pune_Metro_Signalling_GitHub_Image_Fix.zip` and upload its contents to the **existing repository root** using **Add file → Upload files**. Keep the same root layout and choose to replace same-named files, then commit to `main`.
 
-The patch includes `index.html`, `manifest.json`, `sw.js`, `README.md`, `data.json`, the existing root branding images/icons, and `metro-train.png`. It does not create or move Drive folders. After the commit, refresh the GitHub Pages site; if an installed copy still has old cached visuals, close/reopen it or clear that site's browser storage once.
+The patch includes `index.html`, `manifest.json`, `sw.js`, `README.md`, `data.json`, the existing root branding images/icons, plus `metro-train.svg` and `metro-psd.svg`. It does not create or move Drive folders. After the commit, refresh the GitHub Pages site; if an installed copy still has old cached visuals, close/reopen it or clear that site's browser storage once.
 
 ## Mobile install
 
