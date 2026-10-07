@@ -1,19 +1,22 @@
 # Pune Metro Signalling Technician Hub
 
-Mobile document index with Pune Metro and Hajare branding, station/system filters, mapped Drive shortcuts, and an animated train banner for field technicians. The native Android app can save selected linked PDFs locally for offline use.
+Mobile friendly document hub with Pune Metro and Hajare branding, station/system filters, mapped Drive folders, an animated full-length metro train, and animated Platform Screen Doors.
 
-## Update the existing GitHub Pages repository
+## Update GitHub Pages
 
-The Metro logo is embedded directly into `index.html`, so there is no separate Metro-logo filename or folder dependency. Extract `Pune_Metro_Signalling_GitHub_Image_Fix.zip` and upload its contents to the **existing repository root** using **Add file → Upload files**. Keep the same root layout and choose to replace same-named files, then commit to `main`.
+1. Download and extract `Pune_Metro_Signalling_GitHub_Image_Fix.zip`.
+2. In the existing `Pune_Metro_Signalling_Mobile` repository, choose **Add file → Upload files**.
+3. Upload the extracted files into the repository root and replace same-named files. Keep all files at the root; do not make another nested folder.
+4. Commit the upload to `main`. GitHub Pages will publish the changes after the deployment completes.
 
-The patch includes `index.html`, `manifest.json`, `sw.js`, `README.md`, `data.json`, the existing root branding images/icons, plus `metro-train.svg` and `metro-psd.svg`. It does not create or move Drive folders. After the commit, refresh the GitHub Pages site; if an installed copy still has old cached visuals, close/reopen it or clear that site's browser storage once.
+The moving train and PSD illustration are embedded in `index.html`; the service worker no longer depends on separately uploaded SVG art files. Its v13 cache clears the older shell and checks for the latest worker on page load.
 
-## Mobile install
+## Refresh the installed mobile app
 
-Open the GitHub Pages HTTPS URL on the phone. On Android use Chrome → **Install app**. On iPhone use Safari → **Share → Add to Home Screen**. The app shell and document index cache after the first online visit. Google Drive documents need internet and the user's existing Drive access.
+Connect the phone to internet, open the installed app once, then close and reopen it. If it still shows the previous version, open the site in Chrome and refresh once; the installed app should then pick up the updated cache.
 
-## Visibility and data
+For the native Android WebView install, the updated APK is provided separately as `Pune_Metro_Signalling_Android_v1.2.0.apk`. The Android project source is in `Android_App`.
 
-GitHub Pages is public. The repository exposes station names, folder IDs and sample metadata. Drive files continue to use their existing Google Drive permissions. The 12 GB document collection is not packaged in the app; the index currently contains four sample inventory rows plus the corridor scheme-plan PDF. That PDF is restricted in Drive to named accounts; grant access to field technicians before they use its app link or save it offline.
+## Documents and access
 
-
+The app stores the document index for offline browsing. Google Drive documents still require internet unless individually saved by the native Android app, and each file retains its existing Drive permission. Restricted files remain restricted; only grant access to intended technicians. The full document collection is not bundled with the public GitHub Pages app.

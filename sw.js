@@ -1,4 +1,4 @@
-const CACHE_NAME = "pune-signalling-shell-v12";
+const CACHE_NAME = "pune-signalling-shell-v13";
 const APP_FILES = [
   "./",
   "./index.html",
@@ -9,8 +9,6 @@ const APP_FILES = [
   "./hajare-icon-192.png",
   "./hajare-icon-512.png",
   "./metro-train.png",
-  "./metro-train.svg",
-  "./metro-psd.svg"
 ];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE_NAME).then(cache => cache.addAll(APP_FILES)).then(() => self.skipWaiting()));
